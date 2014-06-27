@@ -1,4 +1,4 @@
-def TriNumGen():
+def PythTripleGen():
     total = 3
     p = 1
     q = total - 1
@@ -15,7 +15,7 @@ def TriNumGen():
 
 if __name__ == '__main__':
     query = "T to generate the next triple, Q to quit: "
-    thisGen = TriNumGen()
+    thisGen = PythTripleGen()
     while True:        
         response = input(query)
         if response == 't' or response == 'T':
